@@ -7,6 +7,7 @@ if(isset($_REQUEST['insert']))
 	$name=$_REQUEST['name'];
 	$email=$_REQUEST['email'];
 	$pass=$_REQUEST['pass'];
+	$pass = sha1($pass);
 	$dob=$_REQUEST['dob'];
 	$phone=$_REQUEST['phone'];
 	
