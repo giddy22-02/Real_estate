@@ -1103,7 +1103,7 @@ blockquote {
   z-index: 999;
 }
 .top-contact li {
-  float: left;
+  float: right;
   margin-right: 20px;
 }
 .top-contact li svg {
